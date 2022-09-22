@@ -18,13 +18,13 @@ effectively merged into several branches.
 This repo uses a submodule so the best way is to do
 
 ```
-git clone --recursive https://github.com/spacecowboy/neo4j-changelog.git
+git clone --recursive https://github.com/neo4j/neo4j-changelog.git
 ```
 
 or if you read this after your first build failed (due to a missing submodule), do this
 
 ```
-git clone https://github.com/spacecowboy/neo4j-changelog.git
+git clone https://github.com/neo4j/neo4j-changelog.git
 cd neo4j-changelog
 git submodule update --init --recursive
 ```
